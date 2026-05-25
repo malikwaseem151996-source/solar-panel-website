@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5500;
 
 const DATABASE_URL = process.env.DATABASE_URL ||
-  'postgresql://postgres:Zubeem%408504@db.menmtktnyvpjehwidtwu.supabase.co:5432/postgres';
+  'postgresql://postgres.menmtktnyvpjehwidtwu:Zubeem%408504@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres';
 
 const pool = new Pool({
   connectionString: DATABASE_URL,
