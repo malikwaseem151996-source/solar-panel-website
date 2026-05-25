@@ -1181,7 +1181,7 @@
       monthly_bill:      document.getElementById('cf_bill').value,
       message:           document.getElementById('cf_message').value.trim(),
     };
-    fetch('https://YOUR_RENDER_URL.onrender.com/api/consultation', {
+    fetch('https://solar-api-royq.onrender.com/api/consultation', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload),
@@ -1229,7 +1229,7 @@
 </script>
 
 <script>
-  fetch('https://YOUR_RENDER_URL.onrender.com/api/track', {
+  fetch('https://solar-api-royq.onrender.com/api/track', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
